@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.containter {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background: slategray;
+  font-size: xx-large;
+}
+section#sec1 {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 50% auto auto;
+  height: 450px;
+  margin: 5px 0;
+}
+section#sec1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#sec1 #col1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: darkseagreen;
+}
+h3 a {
+  text-decoration: none;
+  color: rgb(195, 32, 116);
+}
+#txn .Hien1Tin {
+  padding: 5px;
+  border: 1px solid white;
+}
+#txn .Hien1Tin h3 a {
+  color: yellow !important;
+}
+#txn .Hien1Tin p {
+  color: white;
+}
+#tinmoi {
+  display: grid;
+  grid-template-columns: 620px 620px;
+  grid-gap: 10px;
+  padding-left: 15px;
+}
+#tinmoi .Hien1Tin {
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+#tinmoi .Hien1Tin h3 a {
+  color: rgb(251, 122, 230);
+}
+section#sec1 #col2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: darkturquoise;
+}
+section#sec1 #col3 {
+  background: darkorchid;
+}
+section#sec1 #col4 {
+  background: darkkhaki;
+}
+section#sec2 {
+  display: grid;
+  grid-template-columns: auto 300px;
+  min-height: 500px;
+}
+section#sec2 > aside {
+  background: indianred;
+}
+section#sec2 > article {
+  background: lightgrey;
+}
+aside h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+}
+article h1 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer {
+  background: bisque;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+#txn .tintxn {
+  padding: 10px;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(241, 137, 26);
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+}
+button:hover {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(19, 231, 104);
+  color: white;
+  margin: 20px auto;
+}
+
+form > button {
+  margin-left: 10px;
+}
+
+form {
+  margin: 10px 0;
+  border: 1px solid gray;
+  width: 300px;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px;
+  border: none;
+}
+
+textarea {
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px;
+}
