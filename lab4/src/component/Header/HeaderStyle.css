@@ -1,0 +1,28 @@
+.dropdown-toggle::after {
+  display: none;
+}
+.text-decoration-none {
+  text-decoration: none !important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width {
+  width: 2rem;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panel {
+  border: 1px solid #0087ff;
+  background-color: #ddedff;
+  color: #0087ff;
+  border-radius: 4px;
+}
+
+.panel.blue {
+  border: 1px solid #7F51F4;
+  background-color: #DFCCFF;
+  color: #7F51F4;
+}
