@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 1280px;
+  margin: auto;
+}
+header {
+  height: 90px;
+  background: darkcyan;
+  position: relative;
+}
+header nav {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header nav a:hover {
+  color: yellow;
+}
+main {
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+main article {
+  background: wheat;
+}
+main aside {
+  background: darkkhaki;
+}
+footer {
+  background: gray;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
