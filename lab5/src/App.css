@@ -1,43 +1,22 @@
-* {
-  margin: 0;
+* { margin: 0;}
+.container { width: 1280px; margin: auto;}
+header { height: 90px; background: darkcyan; position: relative;}
+header nav { position: absolute; bottom: 5px; left: 10px}
+header nav a { color: white;  text-decoration: none; margin-right: 10px;}
+header nav a:hover { color: yellow;}
+main { 
+  min-height: 600px; 
+  display: grid; grid-template-columns: 75% 25%;
 }
-.container {
-  width: 1280px;
-  margin: auto;
+main article { background: wheat; }
+main aside { background: darkkhaki;}
+footer { background:gray; height: 45px;
+  display: flex; justify-content: center; align-items: center;
 }
-header {
-  height: 90px;
-  background: darkcyan;
-  position: relative;
-}
-header nav {
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-}
-header nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 10px;
-}
-header nav a:hover {
-  color: yellow;
-}
-main {
-  min-height: 600px;
-  display: grid;
-  grid-template-columns: 75% 25%;
-}
-main article {
-  background: wheat;
-}
-main aside {
-  background: darkkhaki;
-}
-footer {
-  background: gray;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+.Book { border: 1px solid rgb(8, 3, 41); text-align: center; padding: 0 !important;}
+.Book  h3 { height: 50px; margin: 5px 0 0 0;  color:deeppink;
+  font-size: 20px; }
+.Book  p {  margin: 5px 0; font-size: 1.3em; color:darkorange; font-weight: bold;}
+.Book a { color:deeppink ; font-size: 1em; }
+.Book img { max-width: 100%; height: 180px;  border: 1px black solid;}

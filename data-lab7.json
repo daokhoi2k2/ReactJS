@@ -1,10 +1,29 @@
 {
   "loaisach": [
-    { "id": "6", "tenloai": "Nghệ thuật sống", "thutu": "1", "anhien": "1" },
-    { "id": "2", "tenloai": "Lịch sử", "thutu": "2", "anhien": "1" },
-    { "id": "3", "tenloai": "Thiếu nhi", "thutu": "4", "anhien": "1" },
-    { "id": "4", "tenloai": "Tình báo", "thutu": "5", "anhien": "0" },
-    { "id": "5", "tenloai": "Văn học", "thutu": "3", "anhien": "1" }
+    {
+      "id": "2",
+      "tenloai": "Lịch sử",
+      "thutu": "2",
+      "anhien": "1"
+    },
+    {
+      "id": "3",
+      "tenloai": "Thiếu nhi",
+      "thutu": "4",
+      "anhien": "1"
+    },
+    {
+      "id": "4",
+      "tenloai": "Tình báo",
+      "thutu": "5",
+      "anhien": "0"
+    },
+    {
+      "id": "5",
+      "tenloai": "Văn học",
+      "thutu": "3",
+      "anhien": "1"
+    }
   ],
   "sach": [
     {
@@ -217,5 +236,8 @@
       "mota": ""
     }
   ],
-  "profile": { "ten": "sachHay", "tacgia": "Nguyen Van Long" }
+  "profile": {
+    "ten": "sachHay",
+    "tacgia": "Nguyen Van Long"
+  }
 }

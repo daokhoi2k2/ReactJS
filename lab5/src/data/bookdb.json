@@ -1,0 +1,249 @@
+{
+    "bookCate": [
+        {
+            "id": "6",
+            "tenloai": "Nghệ thuật sống",
+            "thutu": "1",
+            "anhien": "1"
+        },
+        {
+            "id": "2",
+            "tenloai": "Lịch sử",
+            "thutu": "2",
+            "anhien": "1"
+        },
+        {
+            "id": "3",
+            "tenloai": "Thiếu nhi",
+            "thutu": "4",
+            "anhien": "1"
+        },
+        {
+            "id": "4",
+            "tenloai": "Tình báo",
+            "thutu": "5",
+            "anhien": "0"
+        },
+        {
+            "id": "5",
+            "tenloai": "Văn học",
+            "thutu": "3",
+            "anhien": "1"
+        }
+    ],
+    "book": [
+        {
+            "id": "55",
+            "tensach": "Núi xanh nay vẫn đó",
+            "gia": 198000,
+            "urlHinh": "./assets/nui-xanh-nay-van-do.png",
+            "idLoai": "2",
+            "xem": "535",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "58",
+            "tensach": "Có 500 Năm Như Thế",
+            "gia": 124950,
+            "urlHinh": "./assets/co-500-nam-nhu-the-2019.jpg",
+            "idLoai": "2",
+            "xem": "560",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "105",
+            "tensach": "Sức Mạnh Của Sự Tử Tế",
+            "gia": 68000,
+            "urlHinh": "./assets/suc-manh-cua-su-tu-te.png",
+            "idLoai": "6",
+            "xem": "751",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "204",
+            "tensach": "Bảo Mẫu Nhí Nuôi Mẹ",
+            "gia": 10000,
+            "urlHinh": "./assets/s4.jpg",
+            "idLoai": "2",
+            "xem": "850",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "102",
+            "tensach": "Sống Xanh Như Những Lá Trà",
+            "gia": 109000,
+            "urlHinh": "./assets/song-xanh-nhu-nhung-la-tra.png",
+            "idLoai": "6",
+            "xem": "723",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "103",
+            "tensach": "Sống Như Lần Đầu,Yêu Như Lần Cuối",
+            "gia": 99000,
+            "urlHinh": "./assets/song-nhu-lan-dau-yeu-nhu-lan-cuoi.jpg",
+            "idLoai": "6",
+            "xem": "312",
+            "hot": "0",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "201",
+            "tensach": "Bảo Vệ Những Cánh Rừng",
+            "gia": 30000,
+            "urlHinh": "./assets/s2.jpg",
+            "idLoai": "2",
+            "xem": "32",
+            "hot": "1",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "202",
+            "tensach": "Rèn Luyện Tư Duy Cùng Trái Bóng Tròn",
+            "gia": 64000,
+            "urlHinh": "./assets/s3.jpg",
+            "idLoai": "2",
+            "xem": "25",
+            "hot": "1",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "203",
+            "tensach": "Giải Đố Nhanh Bằng Sách Tranh",
+            "gia": 28000,
+            "urlHinh": "./assets/s1.jpg",
+            "idLoai": "2",
+            "xem": "29",
+            "hot": "1",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "56",
+            "tensach": "Ngự Dược Nhật Ký",
+            "gia": 192000,
+            "urlHinh": "./assets/ngu-duoc-nhat-ky.png",
+            "idLoai": "2",
+            "xem": "82",
+            "hot": "1",
+            "moi": "0",
+            "mota": ""
+        },
+        {
+            "id": "51",
+            "tensach": "Lĩnh Nam Chích Quái",
+            "gia": 315000,
+            "urlHinh": "./assets/linh-nam-chinh-quai.jpg",
+            "idLoai": "2",
+            "xem": "32",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "52",
+            "tensach": "La Sơn Phu Tử",
+            "gia": 128000,
+            "urlHinh": "./assets/la-son-phu-tu.jpg",
+            "idLoai": "2",
+            "xem": "135",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "104",
+            "tensach": "Những Ngày Đầy Nắng",
+            "gia": 129000,
+            "urlHinh": "./assets/nhung-ngay-day-nang.png",
+            "idLoai": "6",
+            "xem": "10",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "53",
+            "tensach": "Bóng Nước Hồ Gươm",
+            "gia": 103200,
+            "urlHinh": "./assets/bong-nuoc-ho-guom.jpg",
+            "idLoai": "2",
+            "xem": "47",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "54",
+            "tensach": "Cuộc nổi dậy của nhà Tây Sơn",
+            "gia": 306000,
+            "urlHinh": "./assets/cuoc-noi-day-cua-nha-tay-son-bia-cung.jpg",
+            "idLoai": "2",
+            "xem": "54",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "57",
+            "tensach": "Nam Kỳ Viễn Chinh Ký ",
+            "gia": 135200,
+            "urlHinh": "./assets/nam-ky-vien-chinh.jpg",
+            "idLoai": "2",
+            "xem": "36",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "101",
+            "tensach": "Sống Chậm Đợi Nắng Lên",
+            "gia": 89000,
+            "urlHinh": "./assets/song-cham-doi-nang-len.png",
+            "idLoai": "6",
+            "xem": "71",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "59",
+            "tensach": "Tư Tưởng Việt Nam",
+            "gia": 526500,
+            "urlHinh": "./assets/tu-tuong-viet-nam.png",
+            "idLoai": "2",
+            "xem": "82",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        },
+        {
+            "id": "106",
+            "tensach": "Để Có Một Tương Lai",
+            "gia": 155000,
+            "urlHinh": "./assets/de-co-mot-tuong-lai.png",
+            "idLoai": "6",
+            "xem": "26",
+            "hot": "0",
+            "moi": "1",
+            "mota": ""
+        }
+    ],
+    "profile": {
+        "ten": "sachHay",
+        "tacgia": "Nguyen Van Long"
+    }
+}

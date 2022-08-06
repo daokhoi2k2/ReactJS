@@ -1,36 +1,65 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Link, Routes, Route } from "react-router-dom";
-import TrangChu from "./components/Trangchu";
-import LienHe from "./components/Lienhe";
-import GioHang from "./components/Giohang";
+import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './component/Home';
+import Contact from './component/Contact';
+import Cart from './component/Cart';
+import { useEffect } from 'react';
+import ListBook from './component/ListBook';
+import AddBook from './component/AddBook';
+import { connect } from 'react-redux';
+import { actDuaSachVaoStore } from './actions/actBook';
 
-function App() {
+const App = (props) => {
+
+  useEffect(()=>{  
+   
+      let url = "http://localhost:3500/book";
+
+      fetch(url).then(res=> res.json())
+      .then(data=>{
+          props.DuaSachVaoStore(data);
+          console.log("got book in database", data);
+      }); 
+  },[]);
+
   return (
-    <div className="container">
-      <header>
-        <nav>
-          <Link to="/">Trang chủ</Link>
-          <Link to="/about">Liên hệ</Link>
-          <Link to="/cart">Giỏ hàng</Link>
-          <Link to="/list_sach">Sản phẩm</Link>
-        </nav>
-      </header>
-      <main>
-        <article>
-          <Routes>
-            <Route path="/" exact element={<TrangChu />} />
-            <Route path="/about" element={<LienHe />} />
-            <Route path="/cart" element={<GioHang />} />
-            <Route path="/list_sach" exact element={<GioHang />} />
-          </Routes>
-          <input></input>
-        </article>
-        <aside>Thông tin bổ sung</aside>
-      </main>
-      <footer>FOOTER</footer>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <header>
+          <nav>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>Contact</Link>
+            <Link to='/cart'>Cart</Link>
+            <Link to='/product'>Product</Link>
+          </nav>
+        </header>
+        <main>
+          <article>
+            <Routes>
+              <Route path='/' exact element={<Home />} />
+              <Route path='/about' element={<Contact />} />
+              <Route path='/cart' element={<Cart />} />
+              <Route path='/product' element={<ListBook />} />
+            </Routes>
+            <input></input>
+          </article>
+          <aside>
+            <AddBook />
+          </aside>
+        </main>
+        <footer>FOOTER</footer>
+      </div>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const mapDispatch = (dispatch) => {
+  return {
+    DuaSachVaoStore: (arrBook) => {
+      dispatch(actDuaSachVaoStore(arrBook));
+    },
+  };
+};
+
+export default connect(null, mapDispatch)(App);
